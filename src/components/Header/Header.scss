@@ -27,7 +27,11 @@
             font-weight: 500;
             text-decoration: none;
 
-            &:hover,&.active{
+            &:hover:not(.active) {
+                text-decoration: underline;
+            }
+
+            &.active {
                 text-decoration: underline;
             }
         }
