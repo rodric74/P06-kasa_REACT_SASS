@@ -4,9 +4,11 @@
     width: 1240px;
     height: 68px;
     align-items: center;
+    margin-top: 45px;
 
     &__logo{
-
+        width: 210px;
+        height: auto;
     }
 
     &__nav {
@@ -14,8 +16,7 @@
         list-style: none;
         display: flex;
         gap:57px;
-
-    }
+        }
 
         &-link{
             color: #FF6060;
