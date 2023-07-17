@@ -8,10 +8,27 @@
     &__logo{
 
     }
+
     &__nav {
+        ul{
+        list-style: none;
+        display: flex;
+        gap:57px;
+
+    }
 
         &-link{
+            color: #FF6060;
+            text-align: right;
+            font-family: Montserrat;
+           font-size: 24px;
+            font-style: normal;
+            font-weight: 500;
+            text-decoration: none;
 
+            &:hover,&.active{
+                text-decoration: underline;
+            }
         }
     }
 }
