@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Property from './pages/Property';
 import Error from './pages/Error';
+import Collapse from './components/Collapse';
+import Slideshow from './components/Slideshow';
 
 function AppRouter() {
     return (
@@ -12,6 +14,8 @@ function AppRouter() {
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/property/:id" element={<Property />} />
+                <Route path="/collapse" element={<Collapse />} />
+                <Route path="/slideshow" element={<Slideshow />} />
                 <Route path="*" element={<Error />} />
             </Routes>
         </Router>

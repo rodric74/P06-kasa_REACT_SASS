@@ -1,10 +1,7 @@
 .footer {
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: black;
     width: 1440px;
+    margin-left: calc((100% - 1440px) / 2); /* Ajout d'une marge gauche calculée pour centrer le footer horizontalement */
     height: 209px;
     display: flex;
     flex-direction: column;
