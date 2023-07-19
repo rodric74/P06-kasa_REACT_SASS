@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
+import Home from './pages/Home/home';
 import About from './pages/About';
-import Property from './pages/Property';
-import Error from './pages/Error';
-import Collapse from './components/Collapse';
-import Slideshow from './components/Slideshow';
+import Property from './pages/Property/property';
+import Error from './pages/Error/error';
+import Collapse from './components/Collapse/collapse';
+import Slideshow from './components/Slideshow/slideshow';
 
 function AppRouter() {
     return (

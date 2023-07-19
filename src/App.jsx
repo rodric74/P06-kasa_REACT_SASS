@@ -1,8 +1,13 @@
 import React from 'react';
 import AppRouter from './Router';
+import "./app.scss"
 
 function App() {
-    return <AppRouter />;
+    return (
+    <div className='app'>
+    <AppRouter />;
+    </div>
+    )
 }
 
 export default App;
