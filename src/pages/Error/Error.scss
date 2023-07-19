@@ -1,0 +1,30 @@
+$error-font-color:#FF6060;
+
+.error{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $error-font-color;
+
+    &__title{
+        font-size: 288px;
+        font-weight: 700;
+        margin: 139px;
+    }
+    &__message{
+        font-weight: 500;
+        font-size: 36px;
+    }
+    &__link{
+        font-size: 18px;
+        text-decoration: none;
+        color: $error-font-color;
+        margin: 139px;
+        
+        &:hover{
+            text-decoration: underline;
+        }
+    }
+
+    
+}

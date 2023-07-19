@@ -9,14 +9,12 @@ import './Home.scss';
 function Home() {
   return (
     <div>
-      <Header />
       <Banner />
       <div className="card-container">
         {propertiesData.map((property) => (
           <Card key={property.id} property={property} />
         ))}
       </div>
-      <Footer />
     </div>
   );
 }
