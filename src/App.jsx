@@ -1,11 +1,11 @@
 
-import AppRouter from './Router';
+import Router from './Router';
 import "./app.scss"
 
 function App() {
     return (
     <div className='app'>
-    <AppRouter />;
+    <Router />;
     </div>
     )
 }
