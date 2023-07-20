@@ -5,10 +5,12 @@ function About() {
   return (
   <div>
     <Banner />
-    <Collapse title='Fiabilité' content="le contenu si ca fonctionne " />
-    <Collapse title='Respect' content="le contenu si ca fonctionne " />
-    <Collapse title='Service' content="le contenu si ca fonctionne " />
-    <Collapse title='Sécurité' content="le contenu si ca fonctionne " />
+    <div className='about'>
+    <Collapse title="Title" content="le contenu si ça fonctionne" className="collapse-about" />
+    <Collapse title='Respect' content="le contenu si ca fonctionne " className="collapse-about" />
+    <Collapse title='Service' content="le contenu si ca fonctionne " className="collapse-about" />
+    <Collapse title='Sécurité' content="le contenu si ca fonctionne " className="collapse-about" />
+    </div>
   </div>);
 }
 

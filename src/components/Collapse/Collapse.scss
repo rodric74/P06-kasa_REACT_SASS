@@ -1,0 +1,26 @@
+// Collapse.scss
+.collapse-about {
+  display: flex;
+  width: 1023px;
+  padding: 10px 20px 10px 15px;
+  align-items: center;
+  border-radius: 5px;
+  background: #FF6060;
+}
+
+.collapse-about-title {
+  color:white;
+}
+
+.collapse-about-content {
+  // styles spécifiques pour le contenu dans About
+  width: 1023px;
+  background-color: grey;
+}
+
+// About.scss
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; // espace entre les éléments de la colonne
+}
