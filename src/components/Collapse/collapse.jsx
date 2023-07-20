@@ -9,16 +9,17 @@ function Collapse({ title, content}) {
   };
 
   return (
-    <div>
-      <div>
+    <div className="collapse">
+      <div className="collapse__title">
         {title}
         <img src={arrowIcon} 
               alt="flèche pour ouverture Collapse" 
               onClick={handleToggle} 
               style={{transform: isOpen ? 'rotate(90deg)' : 'none'}} 
+              className="collapse__img"
         />
       </div>
-      {isOpen && <div>{content}</div> }
+      {isOpen && <div className="collapse__content">{content}</div> }
     </div>
   );
 }
