@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import arrowIcon from '../../assets/arrow_back_ios-24px 2.svg'
 import './Collapse.scss'
@@ -11,15 +12,14 @@ function Collapse({ title, content, className}) {
   return (
     <div className={`collapse ${className}`}>
       <div className={`collapse__title ${className}-title`}>
-        {title}
+        <span>{title}</span>
         <img src={arrowIcon} 
-              alt="flèche pour ouverture Collapse" 
-              onClick={handleToggle} 
-              style={{transform: isOpen ? 'rotate(90deg)' : 'none'}} 
-              className="collapse__img"
-        />
+      alt="flèche pour ouverture Collapse" 
+      onClick={handleToggle} 
+      className={`collapse__img ${isOpen ? 'rotate' : ''}`}
+      />
       </div>
-      {isOpen && <div className={`collapse__content ${className}-content`}>{content}</div> }
+      <div className={`collapse__content ${className}-content ${isOpen ? 'open' : ''}`}>{content}</div>
     </div>
   );
 }

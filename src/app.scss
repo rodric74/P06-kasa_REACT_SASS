@@ -11,3 +11,13 @@
         padding:0 100px;
     }
 
+    .about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px; 
+        width: 1240px;
+   
+        margin: 30pX 0;
+      }
