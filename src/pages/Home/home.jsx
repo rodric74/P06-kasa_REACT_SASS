@@ -4,6 +4,7 @@ import homeImage from '../../assets/kasa-banner-ocean.jpg'
 import Card from '../../components/Card/card';
 import propertiesData from '../../datas/logements.json';
 import Slideshow from '../../components/Slideshow/slideshow';
+import Rating from '../../components/Rating/rating';
 import './Home.scss';
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
     <div>
       <Banner backgroundImage={homeImage} />
       <Slideshow images={images} />
+      <Rating rating={4} />
       <div className="card-container">
         {propertiesData.map((property) => (
           <Card key={property.id} property={property} />
