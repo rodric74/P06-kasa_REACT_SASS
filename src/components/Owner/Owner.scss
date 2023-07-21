@@ -1,17 +1,19 @@
 .owner {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    
 
     &__name{
         margin-right: 10px;
         color: #FF6060;
-text-align: right;
-font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 142.6%;
-    }
+        text-align: right;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 142.6%;
+            }
 
     &__picture{
         width: 64px;

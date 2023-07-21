@@ -1,0 +1,16 @@
+.apartement-rental__collapse {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+.apartement-rental__property{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 0;
+}
+.appartement-rental__owner{
+    display: flex;
+    flex-direction: column;
+
+}  

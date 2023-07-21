@@ -1,21 +1,16 @@
-.collapse-about {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    width: 1023px;
-    height: auto;
-  
-    align-items: center;
-    
-   
-    border: 30px 0 30px 0;
-  }
-  
-  .collapse-about-title {
+.collapse {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 30px 0 30px 0;
+
+  &__title {
     background-color:#FF6060;
     border-radius: 5px;
     padding: 10px 20px 10px 15px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -23,22 +18,17 @@
     font-size: 24px;
     font-weight: 500px;
     box-sizing: border-box;
-    
   }
-
-  .collapse__img {
+  &__img {
     transform-origin: center;
     transition: transform 0.3s ease-out;
-   
   }
   
-  .collapse__img.rotate {
+  &__img.rotate {
     transform: rotate(-180deg);
   }
   
-  
-  
-  .collapse-about-content {
+  &__content {
     width: 100%;
     background-color:#F6F6F6;
     color:#FF6060;
@@ -53,8 +43,18 @@
     box-sizing: border-box;
   }
   
-  .collapse-about-content.open {
+  &__content.open {
     max-height: 500px; 
     opacity: 1;
   }
-  
+}
+
+.collapse--about {
+  width: 1023px;
+  height: auto;
+}
+
+.collapse--apartement {
+  width: 589px;
+  height: auto;
+}
