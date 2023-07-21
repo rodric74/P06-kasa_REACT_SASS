@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import arrowIcon from '../../assets/arrow_back_ios-24px 2.svg'
 import './Collapse.scss'

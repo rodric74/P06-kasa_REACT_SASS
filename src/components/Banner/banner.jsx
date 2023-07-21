@@ -1,4 +1,3 @@
-// Banner.jsx
 import './Banner.scss'
 
 const Banner = ({ backgroundImage }) => {

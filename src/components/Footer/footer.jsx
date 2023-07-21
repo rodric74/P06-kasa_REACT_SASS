@@ -1,4 +1,3 @@
-
 import './Footer.scss';
 import logoWhite from '../../assets/kasa-logo-white.png'
 
