@@ -1,0 +1,21 @@
+.owner {
+    display: flex;
+    align-items: center;
+
+    &__name{
+        margin-right: 10px;
+        color: #FF6060;
+text-align: right;
+font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 142.6%;
+    }
+
+    &__picture{
+        width: 64px;
+        height: 64px;
+        border-radius: 50px;
+    }
+}

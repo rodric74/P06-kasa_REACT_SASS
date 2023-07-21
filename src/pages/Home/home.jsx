@@ -5,6 +5,7 @@ import Card from '../../components/Card/card';
 import propertiesData from '../../datas/logements.json';
 import Slideshow from '../../components/Slideshow/slideshow';
 import Rating from '../../components/Rating/rating';
+import Owner from '../../components/Owner/owner';
 import './Home.scss';
 
 function Home() {
@@ -16,11 +17,17 @@ function Home() {
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-5.jpg",
 			"https://s3-eu-west-1.amazonaws.com/course.oc-static.com/projects/front-end-kasa-project/accommodation-1-6.jpg"
   ];
+  const mockHost = {
+    name: 'Rodric Rambosson',
+    picture: 'https://avatars.githubusercontent.com/u/124832324?v=4',
+  };
+
   return (
     <div>
       <Banner backgroundImage={homeImage} />
       <Slideshow images={images} />
-      <Rating rating={4} />
+      <Owner host={mockHost} />
+      <Rating rating={2} />
       <div className="card-container">
         {propertiesData.map((property) => (
           <Card key={property.id} property={property} />
