@@ -5,7 +5,7 @@ import ApartmentRental from './pages/ApartmentRental/ApartmentRental';
 import Error from './pages/Error/error';
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
-import './App.scss'
+import './app.scss'
 
 function App() {
   return (
