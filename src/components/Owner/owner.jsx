@@ -1,7 +1,6 @@
 import './Owner.scss';
 
 const Owner = ({ host }) => {
-  // Split the name into first name and last name
   const [firstName, lastName] = host.name.split(' ');
 
   return (
