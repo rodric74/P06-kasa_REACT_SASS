@@ -1,7 +1,7 @@
 .owner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     
 
     &__name{
@@ -13,6 +13,8 @@
         font-style: normal;
         font-weight: 500;
         line-height: 142.6%;
+       
+
             }
 
     &__picture{
