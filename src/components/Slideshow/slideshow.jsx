@@ -27,7 +27,7 @@ const Slideshow = ({ images }) => {
           </button>
         </>
       )}
-      <img src={images[currentSlide]} alt="" className="slideshow__image" />
+      <img src={images[currentSlide]} alt="Appartement Carouselle" className="slideshow__image" />
       {images.length > 1 && (
         <div className="slideshow__counter">{currentSlide + 1} / {images.length}</div>
       )}
