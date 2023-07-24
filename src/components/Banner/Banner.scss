@@ -10,6 +10,7 @@
   color: white;
   background-position: center;
   margin-top: 50px;
+  margin-bottom: 45Px;
   overflow: hidden;
 
   &::before {
@@ -27,16 +28,5 @@
     font-size: 48px;
     font-weight: 400;
   }
-
-  @media (max-width:375px) {
-    margin-top: 27px;
-    height: 111px;
-
-    &__text {
-      position: relative;
-      font-size: 24px;
-      font-weight: 400;
-    }
-    
-  }
+  
 }
