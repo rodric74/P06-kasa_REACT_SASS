@@ -26,7 +26,12 @@ function ApartmentRental() {
       </div>
       <div className="apartement-rental__collapse">
         <Collapse title="Description" content={property.description} className="collapse collapse--apartement" />
-        <Collapse title="Equipments" content={property.equipments.join(', ')} className="collapse collapse--apartement" />
+        <Collapse 
+  title="Equipments" 
+  content={property.equipments.map((equipment, index) => <span key={index} className="equipment-item">{equipment}</span>)} 
+  className="collapse collapse--apartement" 
+/>
+
       </div>
     </div>
   );

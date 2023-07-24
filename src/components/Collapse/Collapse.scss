@@ -42,6 +42,8 @@
     padding: 10px;
     box-sizing: border-box;
     margin-bottom: 15px;
+    display: flex;
+    align-items: flex-start;
   }
   
   &__content.open {
