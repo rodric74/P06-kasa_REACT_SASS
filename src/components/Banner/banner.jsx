@@ -1,9 +1,9 @@
 import './Banner.scss'
 
-const Banner = ({ backgroundImage }) => {
+const Banner = ({ backgroundImage, text }) => {
     return (
         <div className='banner' style={{ backgroundImage: `url(${backgroundImage})` }}>
-            <h1 className='banner__text'><span>Chez vous,</span> <span>partout et ailleurs</span></h1>
+            {text && <h1 className='banner__text'>{text}</h1>}
         </div>
     )
 }

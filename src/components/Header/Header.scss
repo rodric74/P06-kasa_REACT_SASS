@@ -45,16 +45,18 @@
 
     @media (max-width: 375px) {
         margin-top: 20px;
+        justify-content: space-evenly;
+        
         &__logo {
             max-width: 145px;
         }
 
         &__nav {
             ul{
-                gap: 17px;
+                gap: 10px;
             }
             &-link {
-                font-size: 18px;
+                font-size: 14px;
             }
         }
     }

@@ -7,8 +7,8 @@ import './Home.scss';
 function Home() {
   
   return (
-    <div>
-      <Banner backgroundImage={homeImage} />
+    <div className='home'>
+      <Banner backgroundImage={homeImage} text="Chez vous, partout et ailleurs" />
       <div className="card-container">
         {propertiesData.map((property) => (
           <Card key={property.id} property={property} />
