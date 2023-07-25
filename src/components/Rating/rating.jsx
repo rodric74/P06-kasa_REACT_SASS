@@ -1,4 +1,3 @@
-import React from 'react';
 import './Rating.scss';
 import star from '../../assets/star.svg';
 import starGrey from '../../assets/Star_Grey.svg'

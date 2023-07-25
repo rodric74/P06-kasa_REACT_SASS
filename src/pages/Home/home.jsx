@@ -1,4 +1,3 @@
-import React from 'react';
 import Banner from '../../components/Banner/banner';
 import propertiesData from '../../datas/logements.json'
 import homeImage from '../../assets/kasa-banner-ocean.jpg'
