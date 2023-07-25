@@ -50,8 +50,11 @@
         }
 
         &__nav {
+            ul{
+                gap: 17px;
+            }
             &-link {
-                font-size: 12px;
+                font-size: 18px;
             }
         }
     }
