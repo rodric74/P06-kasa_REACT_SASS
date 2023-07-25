@@ -26,6 +26,10 @@
     position: relative;
     font-size: 48px;
     font-weight: 400;
+
+    span {
+      display: inline;
+    }
   }
 
   @media (max-width:375px) {
@@ -33,10 +37,16 @@
     height: 111px;
 
     &__text {
-      position: relative;
       font-size: 24px;
-      font-weight: 400;
+      width: 95%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding-left: 20px;
+
+      span {
+        display: block;
+      }
     }
-    
   }
 }
