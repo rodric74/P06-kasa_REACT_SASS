@@ -53,11 +53,16 @@
 }
 
 .collapse--about {
-  width: 1023px;
-  height: auto;
+  &__title{
+    width: 1023px;
+    height: auto;
+    font-size: 13px;
+    
+  }
 }
 
 .collapse--apartement {
   width: 589px;
   height: auto;
-}
+
+  }

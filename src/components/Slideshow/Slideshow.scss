@@ -1,6 +1,6 @@
 .slideshow {
   position: relative;
-  width: 1240px;
+  width: 100%;
   height: 415px;
   border-radius: 10px;
   overflow: hidden;
@@ -38,5 +38,12 @@
     color: white;   
     font-size: 18px;
     font-weight: 500;
+  }
+  @media (max-width:375px) {
+    width: 323px;
+    
+    &__counter{
+      display: none;
+    }
   }
 }
