@@ -47,6 +47,12 @@
     margin-bottom: 27px;
     width: 335px;
     height: 111px;
+    padding: 0;
+
+    .banner.about-banner {
+      width: 336px;
+      height: 223px;
+    }
     
     &__text {
       font-size: 24px;

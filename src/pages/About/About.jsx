@@ -5,8 +5,8 @@ import './About.scss'
 
 function About() {
   return (
-  <div>
-    <Banner backgroundImage={aboutImage} />
+  <div className='about-leader'>
+    <Banner backgroundImage={aboutImage} className="about-banner" />
     <div className='about'>
     <Collapse title="Fiabilité" content="Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont
  régulièrement vérifiées par nos équipes." className="collapse--about" />
