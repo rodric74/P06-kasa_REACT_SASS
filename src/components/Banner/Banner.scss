@@ -35,6 +35,8 @@
   }
 
   @media (max-width:768px) {
+
+  margin-bottom: 10px;
     &__text {
       width: 100%;
       display: flex;
@@ -44,9 +46,7 @@
     }
   }
 
-  @media (max-width:375px) {
-    height: 111px;
-    padding: 0;
+  @media (max-width:425PX) {
 
     &__text {
       font-size: 24px;
