@@ -4,6 +4,13 @@
   align-items: center;
 }
 
+.home-banner{
+  width: 100%;
+  @media (max-width:465px) {
+    width: 335px;
+  }
+}
+
 .card-container {
   box-sizing: border-box;
   border-radius: 25px;
@@ -14,4 +21,13 @@
   justify-content: flex-start; 
   background-color: #F6F6F6;
   padding: 26px;
+
+  @media (max-width:465px) {
+    width: 355px;
+    height: auto;
+    background-color: transparent;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
 }

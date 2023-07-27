@@ -8,7 +8,7 @@ function Home() {
   
   return (
     <div className='home'>
-      <Banner backgroundImage={homeImage} text="Chez vous, partout et ailleurs" />
+      <Banner backgroundImage={homeImage} text="Chez vous, partout et ailleurs" className='home-banner' />
       <div className="card-container">
         {propertiesData.map((property) => (
           <Card key={property.id} property={property} />
