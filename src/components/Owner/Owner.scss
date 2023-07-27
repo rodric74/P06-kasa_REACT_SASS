@@ -1,3 +1,9 @@
+$owner-font-family: Montserrat;
+$owner-font-style: normal;
+$owner-font-weight: 500;
+$owner-line-height: 142.6%;
+$owner-color: #FF6060;
+
 .owner {
     display: flex;
     align-items: center;
@@ -5,13 +11,13 @@
   
     &__name {
       margin-right: 10px;
-      color: #FF6060;
+      color: $owner-color;
       text-align: right;
-      font-family: Montserrat;
+      font-family: $owner-font-family;
       font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 142.6%;
+      font-style: $owner-font-style;
+      font-weight: $owner-font-weight;
+      line-height: $owner-line-height;
     }
   
     &__picture {
@@ -52,5 +58,4 @@
         height: 33px;
       }
     }
-  }
-  
+}

@@ -57,6 +57,7 @@ $media-breakpoint3: 375px;
 
   @media (max-width:$media-breakpoint2) {
     margin-top: 22px;
+    width: 336px;
 
     &__text {
       font-size: 24px;
