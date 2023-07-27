@@ -18,7 +18,13 @@
     font-size: 24px;
     font-weight: 500px;
     box-sizing: border-box;
+
+    @media (max-width: 375px) {
+      height: 30px; 
+      font-size: 13px;
+    }
   }
+
   &__img {
     transform-origin: center;
     transition: transform 0.3s ease-out;
@@ -44,6 +50,12 @@
     margin-bottom: 15px;
     display: flex;
     align-items: flex-start;
+
+    @media (max-width:375px) {
+      font-size: 13px;
+      margin-bottom: 5PX ;
+      
+    }
   }
   
   &__content.open {
@@ -52,17 +64,21 @@
   }
 }
 
-.collapse--about {
-  &__title{
-    width: 1023px;
-    height: auto;
-    font-size: 13px;
-    
-  }
-}
+// .collapse--about {
+  
+//   &__title{
+//     width: 1023px;
+//     height: auto;
+//     font-size: 13px;
+
+//   &__content {
+//     @media (max-width: 375px) {
+//       font-size: 12px;
+//     }
+//   }
+// }
 
 .collapse--apartement {
   width: 589px;
   height: auto;
-
-  }
+}
