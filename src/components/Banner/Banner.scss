@@ -1,7 +1,16 @@
+
+$banner-height: 223px;
+$banner-font-size: 48px;
+$banner-margin-top: 50px;
+$banner-margin-bottom: 50px;
+$media-breakpoint1: 768px;
+$media-breakpoint2: 425px;
+$media-breakpoint3: 375px;
+
 .banner {
   position: relative;
   width: 100%;
-  height: 223px;
+  height: $banner-height;
   border-radius: 25px;
   display: flex;
   align-items: center;
@@ -10,8 +19,8 @@
   color: white;
   background-position: center;
   background-size: cover;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: $banner-margin-top;
+  margin-bottom: $banner-margin-bottom;
   overflow: hidden;
 
   &::before {
@@ -26,7 +35,7 @@
   
   &__text {
     position: relative;
-    font-size: 48px;
+    font-size: $banner-font-size;
     font-weight: 400;
 
     span {
@@ -34,9 +43,9 @@
     }
   }
 
-  @media (max-width:768px) {
+  @media (max-width:$media-breakpoint1) {
+    margin-bottom: 10px;
 
-  margin-bottom: 10px;
     &__text {
       width: 100%;
       display: flex;
@@ -46,7 +55,8 @@
     }
   }
 
-  @media (max-width:425PX) {
+  @media (max-width:$media-breakpoint2) {
+    margin-top: 22px;
 
     &__text {
       font-size: 24px;
@@ -59,8 +69,9 @@
 }
 
 .about-banner {
-  @media (max-width: 375px) {
+  @media (max-width: $media-breakpoint3) {
     width: 336px;
-    height: 223px;
+    height: $banner-height;
+    margin-bottom: 19px;
   }
 }
