@@ -6,12 +6,15 @@
     align-items: center;
     margin: auto;
     font-family: Montserrat;
-    
 }
 
 .app__container{
     max-width: 1240px;
     width: 100%;   
-    margin-bottom: 50Px;
+    margin-bottom: 50px;
 
+    @media (max-width:465px) {
+        padding: 0 10px;
+        background-color: aqua;
+    }
 }

@@ -20,9 +20,13 @@ function ApartmentRental() {
       <Slideshow images={property.pictures} />
       <div className='apartement-rental__property'>
         <Property property={property} />
-        <div className='appartement-rental__owner'>
-          <Owner host={property.host} />
-          <Rating rating={property.rating} />
+        <div className='apartement-rental__owner'>
+          <div className='apartement-rental__owner__rating'>
+            <Rating rating={property.rating} className='apartement-rental__rating' />
+          </div>
+          <div className='apartement-rental__owner__host'>
+            <Owner host={property.host} />
+          </div>
         </div>
       </div>
       <div className="apartement-rental__collapse">

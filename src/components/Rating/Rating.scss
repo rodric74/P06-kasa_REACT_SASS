@@ -1,9 +1,40 @@
 .rating {
-    display: flex;
-    justify-content: space-between;
-    width: 196px;
-    height: auto;
-    margin-top: 20px;
-  
+  display: flex;
+  justify-content: space-between;
+  width: 196px;
+  height: auto;
+  margin-top: 20px;
+
+  .star {
+    width: 36px;
+    height: 36px;
   }
-  
+
+  @media (max-width: 1024px) {
+    width: 147px;
+
+    .star {
+      width: 27px;
+      height: 27px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 123px;
+
+    .star {
+      width: 23px;
+      height: 23px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    width: 98px;
+    margin-top: 0;
+
+    .star {
+      width: 18px;
+      height: 18px;
+    }
+  }
+}

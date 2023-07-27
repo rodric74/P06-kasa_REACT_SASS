@@ -14,6 +14,11 @@
     border: none;
     cursor: pointer;
 
+    img {
+      width: 48px;
+      height: 48px;
+    }
+
     &--prev img {
       transform: rotate(180deg);
       margin-left: 10px;
@@ -39,11 +44,46 @@
     font-size: 18px;
     font-weight: 500;
   }
-  @media (max-width:375px) {
-    width: 323px;
-    
-    &__counter{
+
+  @media (max-width: 1024px) {
+    height: 350px;
+
+    &__button img {
+      width: 36px;
+      height: 36px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 300px;
+
+    &__button img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    width: 335px;
+    height: 255px;
+    margin-left: auto;
+    margin-right: auto;
+
+    &__counter {
       display: none;
+    }
+
+    &__button {
+      top: 50%; // Centrer verticalement les flèches
+
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      &--next {
+        right: 10px; // Aligner horizontalement la flèche de droite
+      }
     }
   }
 }

@@ -9,6 +9,7 @@
   text-align: center;
   color: white;
   background-position: center;
+  background-size: cover;
   margin-top: 50px;
   margin-bottom: 50px;
   overflow: hidden;
@@ -32,28 +33,21 @@
       display: inline;
     }
   }
+
   @media (max-width:768px) {
-    &__text{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    padding-left: 20px;
+    &__text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      padding-left: 20px;
+    }
   }
-    
-  }
+
   @media (max-width:375px) {
-    margin-top: 27px;
-    margin-bottom: 27px;
-    width: 335px;
     height: 111px;
     padding: 0;
 
-    .banner.about-banner {
-      width: 336px;
-      height: 223px;
-    }
-    
     &__text {
       font-size: 24px;
   
@@ -61,5 +55,12 @@
         display: block;
       }
     }
+  }
+}
+
+.about-banner {
+  @media (max-width: 375px) {
+    width: 336px;
+    height: 223px;
   }
 }

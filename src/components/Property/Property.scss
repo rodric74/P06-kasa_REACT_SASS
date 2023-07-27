@@ -1,13 +1,21 @@
 .property {
   &__title {
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     color: #FF6060;
-    font-size: 36px;
     font-style: normal;
     font-weight: 500;
     line-height: 142.6%;
     margin: 0;
+    display: flex;
+      flex-direction: column;
+    
+
+    @media (max-width: 465px) {
+      font-size: 18px;
+      display: flex;
+      width: 335px;
+    }
   }
 
   &__location {
@@ -15,6 +23,10 @@
     font-weight: 500;
     color: #FF6060;
     margin-top: 0;
+
+    @media (max-width: 465px) {
+      font-size: 14px;
+    }
   }
 
   &__tags {
@@ -33,5 +45,13 @@
     color: white;
     padding: 3px 10px;
     font-size: 14px;
+
+    @media (max-width: 465px) {
+      font-size: 10px;
+    }
   }
+
+    @media (max-width:465px) {
+      
+    }
 }
