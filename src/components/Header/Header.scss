@@ -1,92 +1,93 @@
+$headerLogoMaxWidth: 210px;
+$headerLogoMaxWidthMobile: 145px;
+$headerNavGap: 57px;
+$headerNavLinkFontSize: 24px;
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1240px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1240px;
+  width: 100%;
+  height: 68px;
+  align-items: center;
+  margin-top: 45px;
+
+  &__logo {
+    max-width: $headerLogoMaxWidth;
     width: 100%;
-    height: 68px;
-    align-items: center;
-    margin-top: 45px;
-  
-    &__logo {
-      max-width: 210px;
+    height: auto;
+
+    img {
       width: 100%;
       height: auto;
-  
-      img {
-        width: 100%;
-        height: auto;
-      }
     }
-  
-    &__nav {
-      ul {
-        list-style: none;
-        display: flex;
-        gap: 57px;
-      }
-  
-      &-link {
-        color: #FF6060;
-        text-align: right;
-        font-family: Montserrat;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 500;
-        text-decoration: none;
-  
-        &:hover:not(.active) {
-          text-decoration: underline;
-        }
-  
-        &.active {
-          text-decoration: underline;
-        }
-      }
+  }
+
+  &__nav {
+    ul {
+      list-style: none;
+      display: flex;
+      gap: $headerNavGap;
     }
-  
-    @media (max-width: 1024px) {
-      &__nav {
-        ul {
-          gap: 30px;
-        }
-  
-        &-link {
-          font-size: 20px;
-        }
-      }
-    }
-  
-    @media (max-width: 768px) {
-      justify-content: space-between;
-  
-      &__nav {
-        ul {
-          gap: 20px;
-        }
-  
-        &-link {
-          font-size: 18px;
-        }
-      }
-    }
-  
-    @media (max-width: 425px) {
-      margin-top: 20px;
-      justify-content: space-evenly;
-  
-      &__logo {
-        max-width: 145px;
-      }
-  
-      &__nav {
-        ul {
-          gap: 10px;
-        }
-  
-        &-link {
-          font-size: 14px;
-        }
+
+    &-link {
+      color: #FF6060;
+      text-align: right;
+      font-family: Montserrat;
+      font-size: $headerNavLinkFontSize;
+      font-style: normal;
+      font-weight: 500;
+      text-decoration: none;
+
+      &:hover:not(.active),
+      &.active {
+        text-decoration: underline;
       }
     }
   }
-  
+
+  @media (max-width: 1024px) {
+    &__nav {
+      ul {
+        gap: 30px;
+      }
+
+      &-link {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    justify-content: space-between;
+
+    &__nav {
+      ul {
+        gap: 20px;
+      }
+
+      &-link {
+        font-size: 18px;
+      }
+    }
+  }
+
+  @media (max-width: 425px) {
+    margin-top: 20px;
+    justify-content: space-evenly;
+
+    &__logo {
+      max-width: $headerLogoMaxWidthMobile;
+    }
+
+    &__nav {
+      ul {
+        gap: 10px;
+      }
+
+      &-link {
+        font-size: 14px;
+      }
+    }
+  }
+}
