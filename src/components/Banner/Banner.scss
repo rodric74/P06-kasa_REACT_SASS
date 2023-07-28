@@ -43,9 +43,9 @@ $media-breakpoint3: 375px;
     }
   }
 
-  @media (max-width:$media-breakpoint1) {
-    margin-bottom: 10px;
+  @media (max-width:768px) {
 
+  margin-bottom: 10px;
     &__text {
       width: 100%;
       display: flex;
@@ -55,9 +55,7 @@ $media-breakpoint3: 375px;
     }
   }
 
-  @media (max-width:$media-breakpoint2) {
-    margin-top: 22px;
-    width: 336px;
+  @media (max-width:425PX) {
 
     &__text {
       font-size: 24px;

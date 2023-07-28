@@ -6,11 +6,8 @@
 
 .home-banner{
   width: 100%;
-  @media (max-width:425px) {
-    max-width: 425PX;
-    width: 90%;
-    height: 111px;
-    padding: 0 ;
+  @media (max-width:465px) {
+    width: 335px;
   }
 }
 
@@ -25,12 +22,7 @@
   background-color: #F6F6F6;
   padding: 26px;
 
-  @media (max-width:1221px) {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  @media (max-width:425px) {
+  @media (max-width:465px) {
     width: 355px;
     height: auto;
     background-color: transparent;

@@ -11,7 +11,7 @@
       flex-direction: column;
     
 
-    @media (max-width: 425px) {
+    @media (max-width: 465px) {
       font-size: 18px;
       display: flex;
       width: 335px;
@@ -24,7 +24,7 @@
     color: #FF6060;
     margin-top: 0;
 
-    @media (max-width: 425px) {
+    @media (max-width: 465px) {
       font-size: 14px;
     }
   }
@@ -46,13 +46,13 @@
     padding: 3px 10px;
     font-size: 14px;
 
-    @media (max-width: 425px) {
+    @media (max-width: 465px) {
       font-size: 10px;
       padding: 1px 15px;
     }
   }
 
-    @media (max-width:425px) {
+    @media (max-width:465px) {
       
     }
 }

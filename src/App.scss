@@ -13,9 +13,9 @@
     width: 100%;   
     margin-bottom: 50px;
 
-    @media (max-width:425px) {
-        // padding: 0 10px;
+    @media (max-width:465px) {
+        padding: 0 10px;
         background-color: aqua;
-        margin-bottom:0;
+        margin-bottom: 15px;;
     }
 }
