@@ -60,7 +60,9 @@ $headerNavLinkFontSize: 24px;
 
   @media (max-width: 768px) {
     justify-content: space-between;
-
+  max-width:720px ;
+  width: 86%;
+  padding: 0 50px;
     &__nav {
       ul {
         gap: 20px;
@@ -75,6 +77,9 @@ $headerNavLinkFontSize: 24px;
   @media (max-width: 425px) {
     margin-top: 20px;
     justify-content: space-evenly;
+    padding: 0;
+    width: 335px;
+    display: flex;
 
     &__logo {
       max-width: $headerLogoMaxWidthMobile;
