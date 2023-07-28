@@ -18,28 +18,24 @@
     font-size: 24px;
     font-weight: 500;
     box-sizing: border-box;
-<<<<<<< HEAD
     height: 52px;
-=======
->>>>>>> parent of 3093d66 (Responsive WIP)
   }
 
   &__img {
     transform-origin: center;
     transition: transform 0.3s ease-out;
-<<<<<<< HEAD
+
     width: 32px;
     height: 32px;
 
     &.rotate {
       transform: rotate(-180deg);
     }
-=======
+
   }
   
   &__img.rotate {
     transform: rotate(-180deg);
->>>>>>> parent of 3093d66 (Responsive WIP)
   }
   
   &__content {
@@ -64,7 +60,7 @@
     max-height: 500px; 
     opacity: 1;
   }
-<<<<<<< HEAD
+
 
   @media (max-width: 425px) {
     width: 335px;
@@ -84,17 +80,11 @@
   max-width: 1023px;
   width: 100%;
 
-  @media (max-width: 425px) {
-    width: 335px;
-=======
-}
-
-.collapse--about {
   &__title {
     @media (max-width: 375px) {
       font-size: 13px;
     }
->>>>>>> parent of 3093d66 (Responsive WIP)
+
   }
 
   &__title, &__content {
@@ -105,11 +95,11 @@
 }
 
 .collapse--apartement {
-<<<<<<< HEAD
+
   width: 582px;
 
-=======
->>>>>>> parent of 3093d66 (Responsive WIP)
+
+
   @media (max-width: 375px) {
     width: 335px;
   }

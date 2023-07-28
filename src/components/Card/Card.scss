@@ -5,8 +5,7 @@
   border-radius: 10px;
   overflow: hidden;
   margin: 25px;
-}
-<<<<<<< HEAD
+
   &::after {
     content: "";
     position: absolute;
@@ -16,53 +15,6 @@
     height: 100%;
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.51));
     z-index: 2;
-=======
-    &::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(transparent, rgba(0, 0, 0, 0.51));
-      z-index: 2;
-    }
-    
-    
-    &__image {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-    
-    &__content {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      padding: 10px;
-      z-index: 3;
-    }
-    
-    &__title {
-      color: white;
-      font-size: 18px;
-      font-size: 18px;
-      font-style: normal;
-      font-weight: 500;
-      line-height: 142.6%; 
-    }
-
-    @media (max-width:768px) {
-      width: 95%;
-
-    }
-    @media (max-width:375px) {
-      width: 335px;
-      height: 225px;
-      margin: 5px;
-      
-    }
->>>>>>> parent of 3093d66 (Responsive WIP)
   }
   
   &__image {
