@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# 🏠 Kasa - Application Web de Location Immobilière avec React 🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Kasa est une plateforme leader 🚀 dans le domaine de la location d'appartements 🏢 entre particuliers en France 🇫🇷. Avec plus de 500 annonces postées chaque jour, Kasa est en pleine refonte de son site web pour offrir une meilleure expérience utilisateur 💡.
 
-## Available Scripts
+## 📌 Menu
 
-In the project directory, you can run:
+- [Objectif du Projet](#-objectif-du-projet)
+- [Fonctionnalités Principales](#-fonctionnalités-principales)
+- [Outils et Contraintes Techniques](#-outils-et-contraintes-techniques)
+  - [Outils Utilisés](#-outils-utilisés)
+  - [Contraintes Techniques](#-contraintes-techniques)
+- [Progression](#-progression)
+  - [Points forts](#-points-forts)
+  - [Remarques sur la soutenance](#-remarques-sur-la-soutenance)
 
-### `npm start`
+## 🎯 Objectif du Projet
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Développer la nouvelle plateforme web de Kasa en utilisant React 🟣 pour le front-end. Le design 🎨 et les fonctionnalités du site sont basés sur les maquettes fournies sur Figma.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖥️ Fonctionnalités Principales
 
-### `npm test`
+- 🖼️ **Galerie d'images** : Permet de défiler les photos. Si l'utilisateur se trouve à la première image et clique sur "Image précédente", la galerie affiche la dernière image et vice-versa.
+- ⬇️ **Collapse** : Les menus déroulants (Collapse) sont fermés par défaut à l'initialisation de la page. Un clic permet d'ouvrir ou de fermer le Collapse.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🔧 Outils et Contraintes Techniques
 
-### `npm run build`
+### 🛠️ Outils Utilisés
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Create React App 📦
+- React Router 🛣️
+- Styling avec Sass 🎨 (pas de librairie React externe)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### ⚙️ Contraintes Techniques
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### React 🟣:
 
-### `npm run eject`
+- Découpage en composants modulaires et réutilisables 🧩.
+- Un composant par fichier 📁.
+- Structure logique des différents fichiers 📚.
+- Utilisation des props et du state 🔄.
+- Gestion des événements 🖱️.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+#### React Router 🛣️:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Gestion des paramètres des routes dans l'URL 🌐.
+- Une page par route 📄.
+- Page 404 pour chaque route inexistante ou valeur incorrecte dans l'URL ❌.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+#### Général 🌍:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Aucune erreur ou warning dans la console 🚫.
 
-## Learn More
+## 📈 Progression
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Le projet a été entièrement validé 🎉 et j'ai réussi ma soutenance 🎉. 
+Voici quelques commentaires de l'évaluateur 📝:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Configurer la navigation entre les pages de l'application avec React Router** : Validé ✅. 
+La navigation entre les pages est bien expliquée et maîtrisée.
+- **Développer une interface web avec Sass** : Validé ✅. 
+J'ai utilisé Sass pour générer le style CSS.
+- **Initialiser une application avec Create React App** : Validé ✅. 
+J'ai développé le site avec CRA et suivi les maquettes Figma.
+- **Développer des éléments de l'interface d'un site web grâce à des composants React** : Validé ✅. 
+J'ai bien utilisé les composants Carrousel, Collapse et Card.
+- **Mettre en œuvre des animations CSS** : Validé ✅. 
+Les animations sur les collapses ont été correctement mises en place.
 
-### Code Splitting
+### 🌟 Points forts :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Tous les livrables répondent à la demande 📜.
+- Le code est propre et bien organisé 🧹.
+- Le PowerPoint est un plus 📊.
 
-### Analyzing the Bundle Size
+### 📝 Remarques sur la soutenance :
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Très bonne présentation et respect du scénario 🎤, attention à la gestion du temps🕞.
+- Bonne maîtrise du projet et bonne connaissance technique 💼.
