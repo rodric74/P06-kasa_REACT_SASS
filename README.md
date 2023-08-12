@@ -66,7 +66,7 @@ J'ai bien utilisé les composants Carrousel, Collapse et Card.
 - **Mettre en œuvre des animations CSS** : Validé ✅. 
 Les animations sur les collapses ont été correctement mises en place.
 
-### 🌟 Points forts :
+### 🌟 Points forts (évaluation) :
 
 - Tous les livrables répondent à la demande 📜.
 - Le code est propre et bien organisé 🧹.
