@@ -53,7 +53,7 @@ Développer la nouvelle plateforme web de Kasa en utilisant React 🟣 pour le f
 ## 📈 Progression
 
 Le projet a été entièrement validé 🎉 et j'ai réussi ma soutenance 🎉. 
-Voici quelques commentaires de l'évaluateur 📝:
+Voici quelques commentaires de l'évaluateur (Olivier Canu) 📝:
 
 - **Configurer la navigation entre les pages de l'application avec React Router** : Validé ✅. 
 La navigation entre les pages est bien expliquée et maîtrisée.
